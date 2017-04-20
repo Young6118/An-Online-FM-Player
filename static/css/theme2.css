@@ -1,0 +1,21 @@
+.img {
+    background-color: #f69685;
+    filter: drop-shadow(0px 0px 10px #141414);
+    opacity:0.5;
+}
+.blur {
+    filter: brightness(0.9);
+}
+#id-music-name {
+    color: #effeec;
+}
+#id-music-current-time, #id-music-duration {
+    color: white;
+}
+#id-music-rate {
+    background: white;
+}
+#id-music-pic {
+    filter: drop-shadow(0px 0px 10px #257d25);
+    border-radius: 0.1rem;
+}

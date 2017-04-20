@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width,
+                                     initial-scale=1.0,
+                                     maximum-scale=1.0,
+                                     user-scalable=no" />
+        <meta charset="utf-8">
+        <title>Y FM</title>
+        <script src="./static/js/Y_lib.js"></script>
+        <link rel="stylesheet" href="./static/css/player.css">
+    </head>
+    <body>
+        <img id="id-bac-img" src=./static/img/b1.jpg />
+        <header>
+            <img id="id-music-pic" src="./static/img/b1.jpg">
+            <div id=id-theme>
+                MUSIC
+            </div>
+        </header>
+        <main>
+            <div class="back-img blur">
+                <div class="img"></div>
+            </div>
+            <audio id='id-music-player' src="" data-list=null></audio>
+            <section id=id-music-time>
+                <span id=id-music-current-time>00:00</span>
+                <span id=id-music-duration>00:00</span>
+            </section>
+            <div id=id-top-playing>
+                <span id=id-music-name>&nbsp</span>
+            </div>
+            <section id=id-music-control>
+                 <img id=id-music-last src="./static/img/last1.png" alt="last1">
+                 <img id=id-music-play src="./static/img/play1.png" alt="play1">
+                 <img id='id-music-next' src="./static/img/next1.png" alt="next1">
+            </section>
+            <section id=id-rate-button>
+                <div id=id-music-rate data-rate=1>1&nbspX</div>
+            </section>
+        </main>
+        <footer>
+            <div id=id-footer-copy>
+                <span id=id-logo>©Y-FM 2017</span>
+            </div>
+        </footer>
+    </body>
+    <script src="./static/db/s1.js"></script>
+    <script src="./static/js/music.js"></script>
+</html>
